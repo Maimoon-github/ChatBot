@@ -75,11 +75,11 @@ def configure_sidebar():
 def display_message(msg):
     if isinstance(msg, HumanMessage):
         sender = 'You'
-        bg_color = '#353D40'
+        bg_color = '#bec7c7'
         align = 'right'
     elif isinstance(msg, AIMessage):
         sender = 'Assistant'
-        bg_color = '#353D40'
+        bg_color = '#d6c372'
         align = 'left'
     else:
         return
